@@ -1,0 +1,45 @@
++-----------------------+
+|      Interface        |
+|   ReprodutorMusical   |
++-----------------------+
+| + tocar(): void       |
+| + pausar(): void      |
+| + selecionarMusica(m: String): void |
++-----------------------+
+
++-----------------------+
+|      Interface        |
+|   AparelhoTelefonico  |
++-----------------------+
+| + ligar(n: String): void |
+| + atender(): void     |
+| + iniciarCorreioVoz(): void |
++-----------------------+
+
++-----------------------+
+|      Interface        |
+|   NavegadorInternet   |
++-----------------------+
+| + exibirPagina(url: String): void |
+| + adicionarNovaAba(): void |
+| + atualizarPagina(): void |
++-----------------------+
+
+        |
+        |
+        v
+
++-----------------------+
+|        Classe         |
+|        IPhone         |
++-----------------------+
+| + tocar(): void       |
+| + pausar(): void      |
+| + selecionarMusica(m: String): void |
+| + ligar(n: String): void |
+| + atender(): void     |
+| + iniciarCorreioVoz(): void |
+| + exibirPagina(url: String): void |
+| + adicionarNovaAba(): void |
+| + atualizarPagina(): void |
++-----------------------+
